@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     background-image: url(./assets/gif\ cor.gif);
     font: normal 20pt italic; 
@@ -41,3 +45,64 @@ section {
     justify-content: space-around;
     flex-direction: column;
 }
+
+section ul li {
+transition: transform .3s;
+}
+
+section ul li:hover{
+    transform: scale(1.1);
+}
+
+.initial img {
+    width: 90px;
+}
+
+.contact img {
+    width: 90px;
+    border-radius: 30%;
+}
+
+header div {
+    animation: fromTop .10s backwards;
+}
+
+main section {
+    animation: fromBottom .9s backwards;
+}
+
+main section:nth-child(2) {
+    animation-delay: .5s;
+}
+
+main section:nth-child(3) {
+    animation-delay: .9s;
+}
+
+@keyframes fromTop {
+    
+
+    from{
+        opacity: 0;
+        transform: translateY(-110px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    
+    from{
+        opacity: 0;
+        transform: translateY(90px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
