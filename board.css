@@ -27,12 +27,16 @@ header {
 }
 
 header div {
-    color: rgba(218, 218, 218, 0.829);
+    color: white;
     text-align: center;
     width: 280px;
     margin: auto;
 
     display: flex;
+}
+
+header div:hover{
+    transform: scale(1.2);
 }
 
 header img {
@@ -78,7 +82,7 @@ transition: transform .3s;
 }
 
 section ul li:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .initial img {
@@ -92,11 +96,11 @@ section ul li:hover{
 }
 
 header div {
-    animation: fromTop .10s backwards;
+    animation: fromTop .80s backwards;
 }
 
 main section {
-    animation: fromBottom .9s backwards;
+    animation: fromBottom .5s backwards;
 }
 
 main section:nth-child(2) {
