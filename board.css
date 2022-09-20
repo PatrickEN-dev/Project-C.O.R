@@ -27,6 +27,7 @@ header {
 }
 
 header div {
+    color: rgba(218, 218, 218, 0.829);
     text-align: center;
     width: 280px;
     margin: auto;
