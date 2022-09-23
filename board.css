@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-    background-image: url(./assets/gif\ cor.gif);
+    background-image: url(WhatsApp\ Image\ 2022-09-20\ at\ 22.59.51.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -22,20 +22,21 @@ body * {
 }
 
 header {
-    padding-top: 32px;
+    padding-top: 50px;
     height: 250px;
 }
 
 header div {
     color: white;
     text-align: center;
-    width: 280px;
+    width: 160px;
     margin: auto;
+
     display: flex;
 }
 
 header div:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 header img {
@@ -63,7 +64,7 @@ section {
 }
 
 section div {
-    background-color: #7647ec;
+    background-color: #e76a22de;
     padding: 25px;
     padding-top: 24px;
     border-radius: 8px;
