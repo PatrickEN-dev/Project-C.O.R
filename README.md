@@ -1,6 +1,6 @@
 # Project-C.O.R
 
-![Preview](./github/preview-cor.png)
+![Preview](preview-cor.png)
 
 Projeto feito para demonstração de redirecionamento de links com estilização nova!
 
