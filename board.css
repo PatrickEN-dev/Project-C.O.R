@@ -47,11 +47,11 @@ header img {
 
 main {
     max-width: 500px;
-    width: 80%;
+    width: 90%;
     margin: auto;
 
     display: grid;
-    gap: 20px;
+    gap: 16px;
 
     margin-top: 32px;
 }
@@ -72,13 +72,13 @@ section div {
 
 section ul {
     display: flex;
-    gap: 40px;
+    gap: 25px;
     flex-wrap: wrap;
     margin-top: 15px;
 }
 
 .contact {
-    gap: 50px;
+    gap: 30px;
 }
 
 section ul li {
